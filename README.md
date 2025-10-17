@@ -1,5 +1,9 @@
 ## TextAi Firefox
 
+A TextAI é uma extensão feita pra facilitar sua vida com textos.
+Ela corrige erros de escrita, traduz trechos em segundos e explica palavras ou frases complicadas sem enrolação.
+Funciona direto no navegador, ajudando você a entender, escrever e se comunicar melhor — em qualquer idioma.
+
 <a href="https://addons.mozilla.org/pt-BR/firefox/addon/textai/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search">clique para fazer download</a>
 
 <hr>
