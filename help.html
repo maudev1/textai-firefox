@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextAI - Help</title>
+
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- FontAwersome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.flaticon.com/br/icones-gratis/mente-aberta">
+                <img src="mind.png" alt="" width="30" height="30">
+
+                TextAi
+            </a>
+
+            <span data-bind="Help"></span>
+        </div>
+    </nav>
+
+    <hr>
+
+    <div id="content" class="content mb-4 row">
+
+        <div class="col-sm-12 col-md-2"></div>
+        <div class="col-sm-12 col-md-8">
+            <div class="container">
+
+                <h1>Guia Rápido da Extensão TextAI</h1>
+
+                <h2>1. Configuração Inicial</h2>
+                <ul>
+                    <li>Crie uma conta em <a href="https://groq.com" target="_blank">groq.com</a> e gere seu
+                        <strong>token
+                            de
+                            acesso</strong>.
+                    </li>
+                    <li>Clique no ícone da extensão no navegador.</li>
+                    <li>Cole o token no campo <code>Token</code> e clique em <strong>Salvar</strong>.</li>
+                </ul>
+
+                <h2>2. Como Usar</h2>
+                <ul>
+                    <li>Selecione o texto na página que deseja processar.</li>
+                    <li>Clique com o botão direito e escolha <strong>TextAI</strong> no menu.</li>
+                    <li>Ao abrir o menu da extensão pela primeira vez, aparecerá o <strong>logo do TextAI</strong> e a
+                        ação
+                        <code>Aprimorar</code> (padrão).
+                    </li>
+                    <li>Para mudar a ação, clique novamente no ícone da extensão e escolha entre:
+                        <ul>
+                            <li><strong>Aprimorar</strong> – melhora o texto.</li>
+                            <li><strong>Explicar</strong> – explica o conteúdo.</li>
+                            <li><strong>Traduzir</strong> – traduz o texto selecionado.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>3. Considerações Finais</h2>
+                <p>
+                    A extensão TextAI foi criada para agilizar tarefas de escrita e leitura diretamente no navegador.
+                    Certifique-se de manter seu token atualizado e evite compartilhá-lo com outras pessoas.
+                    Em caso de erro ou falha, tente recarregar a página ou reinserir o token.
+                </p>
+                <p>
+                    Não temos qualquer relação com o site <strong>groq.com</strong>; utilizamos o serviço apenas por ser
+                    prático para gerar tokens de acesso.
+                </p>
+                <p>
+                    Novas funções poderão ser adicionadas em futuras versões — mantenha a extensão atualizada.
+                </p>
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-2"></div>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <p>TextAi - <span id="year"></span></p>
+        </div>
+    </footer>
+
+    <script src="src/popup.js"></script>
+    <script src="src/i18n/en_us.js"></script>
+    <script src="src/i18n/pt_br.js"></script>
+    <script src="src/i18n/zh_tw.js"></script>
+    <script src="src/language.js"></script>
+
+
+</body>
+
+</html>
